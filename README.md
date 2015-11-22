@@ -4,7 +4,7 @@
 
 ## インストール
 
-<Jekyll Dir>/plugins/breadcrumbs.rbを突っ込むだけ。
+`<Jekyll Dir>/plugins/breadcrumbs.rb`を突っ込むだけ。
 
 ## オプション
 
