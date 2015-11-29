@@ -31,3 +31,23 @@ breadcrumbs:
     url: "index.html"
   collection_prefix: "Collections:"
 ```
+
+## 使い方
+
+### ブロック出力
+
+```ruby
+{% breadcrumbs %}
+<ul class="breadcrumbs">
+  {% for entry in entries %}
+  <li><a href="{{ entry.url | xml_escape }}"><span class="divider">{{ entry.title | escape }}</span></a></li>
+  {% endfor %}
+</ul>
+{% endbreadcrumbs %}
+```
+
+### タグ出力
+
+```ruby
+{% breadcrumbs_tag %}
+```

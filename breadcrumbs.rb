@@ -1,7 +1,8 @@
 # encoding: utf-8
 #
 # パンくずリストの出力プラグイン
-#
+# @author 在望もむ
+# @date 2015/11/22
 require 'cgi'
 
 # Jekyllプラグイン
