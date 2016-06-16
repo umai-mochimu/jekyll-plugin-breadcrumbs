@@ -28,7 +28,7 @@ breadcrumbs:
 breadcrumbs:
   home:
     title: "Home"
-    url: "index.html"
+    url: "/index.html"
   collection_prefix: "Collections:"
 ```
 

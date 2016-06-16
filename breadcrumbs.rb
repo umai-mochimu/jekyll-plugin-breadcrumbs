@@ -11,7 +11,7 @@ module Jekyll
   class Breadcrumbs
     # コンストラクタ
     def initialize()
-      @default_settings = {'home' => {'title' => 'Home', 'url' => 'index.html'}, 'collection_prefix' => 'Collections:'}
+      @default_settings = {'home' => {'title' => 'Home', 'url' => '/index.html'}, 'collection_prefix' => 'Collections:'}
     end
 
     # ページ毎実施処理
