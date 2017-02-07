@@ -90,7 +90,7 @@ module Jekyll
         end
         url << "/"
       end
-      url = "/" + @page['collection'] + "/" + @page['url']
+      url = @page['url']
       if @page['title'].nil?
         @hierarchy << {'title' => "---", 'url' => url}
       else
